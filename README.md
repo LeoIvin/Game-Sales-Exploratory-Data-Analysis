@@ -24,7 +24,7 @@ The project is structured in a Jupyter Notebook format. Below is an outline of t
     import pandas as pd
     import matplotlib.pyplot as plt
 
-    df = pd.read_csv('path_to_your_dataset.csv')
+    df = pd.read_csv('data/XboxOne_GameSales.csv', encoding='latin1')
     df.head()
     ```
 
@@ -60,7 +60,7 @@ The project is structured in a Jupyter Notebook format. Below is an outline of t
 2. **Navigate to the project directory:**
 
     ```bash
-    cd game-sales-eda
+    cd Game-Sales-Exploratory-Data-Analysis
     ```
 
 3. **Install the required libraries:**
